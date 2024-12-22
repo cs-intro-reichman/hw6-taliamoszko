@@ -143,7 +143,7 @@ public class Runigram {
 			for(int i=0 ; i<w; i++){
 				j = (int)Math.floor(i*w0/w);
 				y = (int)Math.floor(x*h0/h);
-				newImage[i][x]= image[y][j];
+				newImage[x][i]= image[y][j];
 			}
 		}
 		return newImage;
